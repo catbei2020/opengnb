@@ -1,10 +1,10 @@
-# GNB
-[GNB](https://github.com/gnbdev/gnb "GNB")是一个开源的去中心化的具有极致内网穿透能力的通过P2P进行三层网络交换的虚拟组网系统。
+# OpenGNB
+
+[OpenGNB](https://github.com/gnbdev/opengnb "OpenGNB")是一个开源的去中心化的具有极致内网穿透能力的通过P2P进行三层网络交换的虚拟组网系统。
 
 [gnb_udp_over_tcp](https://github.com/gnbdev/gnb_udp_over_tcp "gnb_udp_over_tcp")是一个为GNB开发的通过tcp链路中转UDP分组转发的服务，也可以为其他基于UDP协议的服务中转数据。
 
-出于安全考虑，GNB项目相关代码会以开源方式发布, [source code](src/)  会逐步公开。
-
+出于安全考虑，GNB项目相关所有代码会以开源方式发布, [source code](src/)  会逐步公开，不会部分保留.o或库文件方式发表，当前项目仅整理出部分代码供阅读，仍不可以独立编译。
 
 [gnb在各平台的编译发行版下载](https://github.com/gnbdev/gnb_build "gnb_build")
 
@@ -73,8 +73,6 @@ GNB目前支持的操作系统及平台有 Linux_x86_64，Windows10_x86_64， ma
 以下是一些GNB的技术文档：
 
 [GNB 配置及命令行参数](docs/gnb_config_manual_cn.md)
-
-[GNB Linux 部署说明](docs/gnb_for_linux_manual.md)
 
 [GNB 配置图图解](docs/gnb_setup.md)
 
